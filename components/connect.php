@@ -6,7 +6,7 @@ $user_password = '';
 
 // $conn = new PDO($db_name, $user_name, $user_password);
 
-// $db_name = 'mysql:host=sql111.epizy.com;dbname=epiz_31988944_dustech';
+// $db_name = 'mysql:host=sql111.epizy.com;dbname=epiz_31988944_himader';
 // $user_name = 'epiz_31988944';
 // $user_password = 'M5TiMTVvNe9';
 
