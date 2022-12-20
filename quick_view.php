@@ -10,7 +10,6 @@ if(isset($_SESSION['user_id'])){
    $user_id = '';
 };
 
-include 'components/wishlist_cart.php';
 
 ?>
 
@@ -128,33 +127,10 @@ include 'components/wishlist_cart.php';
             <!-- <input type="number" name="qty" class="qty" min="1" max="99"
               onkeypress="if(this.value.length == 2) return false;" value="1"> -->
           </div>
-          <!-- <div id="policy">
-            <div class="d-flex">
-              <div class="replacement">
-                <div class="logo">
-                  <span class="fas fa-retweet "></span>
-                </div>
-                <a href="#" class="font-rale font-size-12">10 Days <br> Replacement</a>
-              </div>
-              <div class="return text-center mr-5">
-                <div class="font-size-20 my-2 color-second">
-                  <span class="fas fa-truck  border p-3 rounded-pill"></span>
-                </div>
-                <a href="#" class="font-rale font-size-12">Daily Tuition <br>Deliverd</a>
-              </div>
-              <div class="return text-center mr-5">
-                <div class="font-size-20 my-2 color-second">
-                  <span class="fas fa-check-double border p-3 rounded-pill"></span>
-                </div>
-                <a href="#" class="font-rale font-size-12">1 Year <br>Warranty</a>
-              </div>
-            </div>
-          </div> -->
           <h2>Deskripsi :</h2>
           <div class="details"><?= $fetch_product['details']; ?></div>
           <div class="flex-btn">
             <input type="submit" value="Tambah ke Keranjang" class="btn" name="add_to_cart">
-            <input class="option-btn" type="submit" name="add_to_wishlist" value="Tambah ke Wishlist">
           </div>
         </div>
       </div>

@@ -16,7 +16,7 @@ if (isset($message)) {
   <section class="flex">
     <div id="menu-btn" class="fas fa-bars"></div>
 
-    <a href="home.php" class="logo"><i class="fa-solid fa-dragon"></i> HimaDer<span> Shop.</span></a>
+    <a href="home.php" class="logo"><i class="fa-solid fa-dragon"></i> HimaDer Official<span> Shop.</span></a>
 
     <nav class="navbar">
       <a href="home.php">Home</a>
@@ -24,9 +24,6 @@ if (isset($message)) {
       <a href="orders.php">Orders</a>
       <a href="contact.php">Contact</a>
       <a href="about.php">About</a>
-      <div class="wish">
-        <a href="wishlist.php">Wishlist</a>
-      </div>
       <div class="wish">
         <a href="cart.php">Cart</a>
       </div>
@@ -47,7 +44,6 @@ if (isset($message)) {
       ?>
 
       <a href="search_page.php"><i class="fas fa-search"></i></a>
-      <a id="w" href="wishlist.php"><i class="fas fa-heart"></i><span>(<?= $total_wishlist_counts; ?>)</span></a>
       <a id="w" href="cart.php"><i class="fas fa-shopping-cart"></i><span>(<?= $total_cart_counts; ?>)</span></a>
       <div id="user-btn" class="fas fa-user"></div>
     </div>
@@ -62,10 +58,6 @@ if (isset($message)) {
         <img src="../images/profil.png" alt="">
         <p><?= $fetch_profile["name"]; ?></p>
         <a href="update_user.php" class="btn">Update Profil</a>
-        <!-- <div class="flex-btn">
-        <a href="user_register.php" class="option-btn">register</a>
-        <a href="user_login.php" class="option-btn">login</a>
-      </div> -->
         <a href="components/user_logout.php" class="delete-btn" onclick="return confirm('logout from the website?');">Keluar</a>
       <?php
       } else {

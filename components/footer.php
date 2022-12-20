@@ -13,9 +13,9 @@
     <div class="box" id="medsos">
       <h3>Follow Us</h3>
       <a href="#"><i class="fab fa-facebook-f"></i>Facebook</a>
-      <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
-      <a href="#"><i class="fab fa-tiktok"></i>Tiktok</a>
-      <a href="#"><i class="fab fa-youtube"></i>Youtube</a>
+      <a href="https://mail.google.com/mail/u/0/?hl=en#inbox?compose=new"><i class="fa-solid fa-envelope"></i>Gmail</a>
+      <a href="https://www.instagram.com/unistangerang/"><i class="fab fa-instagram"></i>Instagram</a>
+      <a href="https://www.youtube.com/@unistangerang1966"><i class="fab fa-youtube"></i>Youtube</a>
     </div>
 
   </div>

@@ -102,9 +102,10 @@ if (isset($_SESSION['user_id'])) {
       <div class="box">
         <img src="images/wahyu1.jpeg" alt="">
         <div class="share">
-          <a href="#" class="fab fa-facebook-f"></a>
-          <a href="#" class="fab fa-tiktok"></a>
-          <a href="#" class="fab fa-instagram"></a>
+          <a href="https://discord.com/channels/783720895717703681/976304346851586058" class="fa-brands fa-discord"></a>
+          <a href="https://github.com/daf04" class="fa-brands fa-github"></a>
+          <a href="https://www.instagram.com/whyusyahril21/" class="fab fa-instagram"></a>
+          <a href="https://www.tiktok.com/@wahyusyahrl" class="fab fa-tiktok"></a>
           <a href="#" class="fab fa-youtube"></a>
         </div>
         <h3>Wahyu Syahril Hidayat</h3>
@@ -113,10 +114,11 @@ if (isset($_SESSION['user_id'])) {
       <div class="box">
         <img src="images/daffa1.jpeg" alt="">
         <div class="share">
-          <a href="#" class="fab fa-facebook-f"></a>
-          <a href="#" class="fab fa-tiktok"></a>
-          <a href="#" class="fab fa-instagram"></a>
-          <a href="#" class="fab fa-youtube"></a>
+          <a href="https://discord.com/channels/783720895717703681/976304346851586058" class="fa-brands fa-discord"></a>
+          <a href="https://github.com/daf04" class="fa-brands fa-github"></a>
+          <a href="https://www.instagram.com/aldrchdapaz/" class="fab fa-instagram"></a>
+          <a href="https://www.tiktok.com/@pengennyasigitu" class="fab fa-tiktok"></a>
+          <a href="https://www.youtube.com/@aldrichdaffazalfansyah2827" class="fab fa-youtube"></a>
         </div>
         <h3>Aldrich Daffa Zalfansyah</h3>
       </div>
@@ -193,7 +195,7 @@ if (isset($_SESSION['user_id'])) {
             <i class="fas fa-star"></i>
             <i class="fas fa-star-half-alt"></i>
           </div>
-          <p>Pelayanan memuaskan, barangny bagus, pengiriman cepat.</p>
+          <p>Pelayanan memuaskan, barangnya bagus, pengiriman cepat.</p>
         </div>
 
         <div class="swiper-slide slide">

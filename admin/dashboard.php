@@ -45,9 +45,9 @@ if (!isset($admin_id)) {
     <div class="box-container">
 
       <div class="box">
-        <h3>Welcome!</h3>
+        <h3>Welcome</h3>
         <p><?= $fetch_profile['name']; ?></p>
-        <a href="update_profile.php" class="btn">Update Profile</a>
+        <a href="update_profile.php" class="btn">Ubah Profile</a>
       </div>
 
       <div class="box">
@@ -62,8 +62,8 @@ if (!isset($admin_id)) {
         }
         ?>
         <h3><span>Rp </span><?= number_format($total_pendings); ?><span>,-</span></h3>
-        <p>Total Pendings</p>
-        <a href="placed_orders.php" class="btn">See Orders</a>
+        <p>Total Pesanan</p>
+        <a href="placed_orders.php" class="btn">Lihat Pesanan</a>
       </div>
 
       <div class="box">
@@ -78,19 +78,8 @@ if (!isset($admin_id)) {
         }
         ?>
         <h3><span>Rp </span><?= number_format($total_completes); ?><span>,-</span></h3>
-        <p>Completed Orders</p>
-        <a href="placed_orders.php" class="btn">See Orders</a>
-      </div>
-
-      <div class="box">
-        <?php
-        $select_orders = $conn->prepare("SELECT * FROM `orders`");
-        $select_orders->execute();
-        $number_of_orders = $select_orders->rowCount()
-        ?>
-        <h3><?= $number_of_orders; ?></h3>
-        <p>Orders Placed</p>
-        <a href="placed_orders.php" class="btn">See Orders</a>
+        <p>Pesanan Selesai</p>
+        <a href="placed_orders.php" class="btn">Lihat Pesanan</a>
       </div>
 
       <div class="box">
@@ -100,8 +89,8 @@ if (!isset($admin_id)) {
         $number_of_products = $select_products->rowCount()
         ?>
         <h3><?= $number_of_products; ?></h3>
-        <p>Products Added</p>
-        <a href="products.php" class="btn">See Products</a>
+        <p>Tambah Produk</p>
+        <a href="products.php" class="btn">Tambah</a>
       </div>
 
       <div class="box">
@@ -111,30 +100,8 @@ if (!isset($admin_id)) {
         $number_of_users = $select_users->rowCount()
         ?>
         <h3><?= $number_of_users; ?></h3>
-        <p>Normal Users</p>
-        <a href="users_accounts.php" class="btn">See Users</a>
-      </div>
-
-      <div class="box">
-        <?php
-        $select_admins = $conn->prepare("SELECT * FROM `admins`");
-        $select_admins->execute();
-        $number_of_admins = $select_admins->rowCount()
-        ?>
-        <h3><?= $number_of_admins; ?></h3>
-        <p>Admin Users</p>
-        <a href="admin_accounts.php" class="btn">See Admins</a>
-      </div>
-
-      <div class="box">
-        <?php
-        $select_messages = $conn->prepare("SELECT * FROM `messages`");
-        $select_messages->execute();
-        $number_of_messages = $select_messages->rowCount()
-        ?>
-        <h3><?= $number_of_messages; ?></h3>
-        <p>New Messages</p>
-        <a href="messagess.php" class="btn">See Messages</a>
+        <p>Akun Customer</p>
+        <a href="users_accounts.php" class="btn">Lihat Customer</a>
       </div>
 
     </div>
